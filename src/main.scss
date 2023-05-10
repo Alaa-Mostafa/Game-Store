@@ -1,0 +1,45 @@
+$primary: #572589;
+$secondary: #444242;
+
+@font-face { 
+    font-family: "tajawal_bold";
+    src: url("/public/fonts/Tajawal/Tajawal-Bold.ttf");
+}
+
+@font-face { 
+    font-family: "tajawal_regular";
+    src: url("/public/fonts/Tajawal/Tajawal-Regular.ttf");
+}
+
+@font-face { 
+    font-family: "roboto_regular";
+    src: url("/public/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+.h-10 {
+    height: 10%;
+}
+
+.h-60 {
+    height: 60%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.primary_text {
+    color: $primary;
+}
+
+.primary_bg {
+    background-color: $primary;
+}
+
+.font_tajawal_bold {
+    font-family: "tajawal_bold";
+}
+
+.font_tajawal_regular {
+    font-family: "tajawal_regular";
+}
